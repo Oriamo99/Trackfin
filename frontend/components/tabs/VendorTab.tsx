@@ -118,7 +118,7 @@ export function VendorTab() {
             />
           )}
 
-          {/* Ligne pour l'Adresse (pleine largeur) */}
+          {/* Ligne pour l'adresse */}
           <div className="grid gap-2">
             <Label htmlFor="address">Adresse</Label>
             <Input 
@@ -129,7 +129,7 @@ export function VendorTab() {
             />
           </div>
 
-          {/* Ligne pour Code Postal et Ville */}
+          {/* Ligne pour code postal et ville */}
           <div className="grid grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="zipCode">Code Postal</Label>
@@ -151,7 +151,7 @@ export function VendorTab() {
             </div>
           </div>
 
-          {/* Ligne pour le Pays */}
+          {/* Ligne pour le pays */}
           <div className="grid gap-2">
             <Label htmlFor="country">Pays</Label>
             <Input 
