@@ -109,16 +109,15 @@ export function VendorTab() {
             </div>
           </div>
 
-          {/* Ligne conditionnelle pour la Raison Sociale */}
+          // Ligne optionnelle pour la Raison Sociale
           {vendorData.type === 'morale' && (
-            // Note : MoralPersonFields est déjà conçu pour prendre toute la largeur
             <MoralPersonFields 
               companyName={vendorData.companyName}
               onChange={handleInputChange}
             />
           )}
 
-          {/* Ligne pour l'adresse */}
+          // Ligne pour l'adresse
           <div className="grid gap-2">
             <Label htmlFor="address">Adresse</Label>
             <Input 
@@ -129,7 +128,7 @@ export function VendorTab() {
             />
           </div>
 
-          {/* Ligne pour code postal et ville */}
+          // Ligne pour code postal et ville
           <div className="grid grid-cols-2 gap-4">
             <div className="grid gap-2">
               <Label htmlFor="zipCode">Code Postal</Label>
@@ -151,7 +150,7 @@ export function VendorTab() {
             </div>
           </div>
 
-          {/* Ligne pour le pays */}
+          // Ligne pour le pays
           <div className="grid gap-2">
             <Label htmlFor="country">Pays</Label>
             <Input 
