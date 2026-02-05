@@ -1,4 +1,3 @@
-// Fichier: frontend/components/tabs/VendorTab.tsx
 
 "use client"; 
 
