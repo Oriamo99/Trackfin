@@ -84,7 +84,7 @@ export function VendorTab() {
           </div>
         </div>
 
-        {/* CHANGEMENT : On utilise maintenant flex-col pour empiler les lignes du formulaire */}
+        {/ flex-col empile les lignes du formulaire */}
         <div className="flex flex-col gap-4">
 
           {/* Ligne pour Prénom et Nom */}
@@ -151,7 +151,7 @@ export function VendorTab() {
             </div>
           </div>
 
-          {/* Ligne pour le Pays (pleine largeur) */}
+          {/* Ligne pour le Pays */}
           <div className="grid gap-2">
             <Label htmlFor="country">Pays</Label>
             <Input 
