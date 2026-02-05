@@ -1,5 +1,3 @@
-// Fichier: frontend/app/page.tsx
-
 // On importe les composants
 import { Layout } from "@/components/Layout";
 import { Sidebar } from "@/components/Sidebar";
