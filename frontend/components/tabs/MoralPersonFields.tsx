@@ -7,7 +7,7 @@ type MoralPersonFieldsProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-// On vérifie bien que l'on a "export function" pour créer un export nommé
+// On utilise "export function" pour créer un export nommé
 export function MoralPersonFields({ companyName, onChange }: MoralPersonFieldsProps) {
   return (
     <div className="col-span-3 grid gap-2">
