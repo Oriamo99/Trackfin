@@ -7,7 +7,7 @@ type MoralPersonFieldsProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-// On utilise "export function" pour créer un export nommé
+// On utilise "export function" pour pouvoir call la function dans MainContent.tsx
 export function MoralPersonFields({ companyName, onChange }: MoralPersonFieldsProps) {
   return (
     <div className="col-span-3 grid gap-2">
